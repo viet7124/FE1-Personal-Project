@@ -68,8 +68,8 @@ body{
     color: white;
     padding: 15px 30px;
     cursor: pointer;
+    outline: none;
 }
-
 .image img{
     width: 100%;
     height: 300px;
@@ -153,13 +153,15 @@ body{
     justify-content:center;
     border-top: 1px solid white;
 }
-.Info a{
-    text-decoration: none;
+.Info nav{
     position: relative;
     bottom: 4px;
     padding: 5px;
     display: inline-block;
     margin-bottom: 30px;
+}
+.Info a{
+    text-decoration: none;
 }
 .Info a:link{
     color: white;
@@ -182,6 +184,9 @@ i{
 }
 .Icon button{
     display: inline-block;
+    position: relative;
+    left: 20px;
+    outline: none;
     padding: 10px;
     margin-left: 20px;
     border-radius: 5px;
@@ -203,4 +208,5 @@ i{
 .Icon > button:hover{
     background-color: white;
 }
+
 
